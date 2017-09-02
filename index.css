@@ -1,0 +1,130 @@
+
+body{
+	font:rem;
+}
+#navbar
+{
+height: 10vh;
+font-size: 2vh;
+opacity: 5%;
+}
+#socialnav
+{
+	display: 
+}
+#waterpic
+	{
+		background: url('Waterpic.jpg') no-repeat center;
+		top: 0;
+		left: 0;
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: 85vh;
+
+		
+	}
+#floatingimage
+{
+	transform: translate(-50%, -50%); 
+	left: 50%; top: 50%;
+	position: absolute;
+
+}
+
+#blank{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#hr{
+	margin-bottom:2vh;
+	border-bottom: 5px solid #777;
+	}
+#threepics{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+#fitness, #chemistry, #github{
+	
+	width: 100%;
+	filter: blur(5px);
+	transition: .5s;
+
+
+}
+
+#box
+{
+	height: 5vh;
+	width: 80%;
+	z-index: 0;
+	opacity: .6;
+  cursor:pointer;
+  text-transform: uppercase;
+  transition: .5s ease;
+  color: white;
+  font-weight: bold;
+  background-color: #0B0915;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+
+}
+#totalbox:hover imgtext{
+opacity: 0;
+}
+
+#fitness:hover, #chemistry:hover, #github:hover{
+	-webkit-transform: translate3d(0,-40px,0);
+	transform: translate3d(0,-40px,0);
+	filter: blur(0px);
+	transition: .5s;
+	cursor: pointer;
+}
+#imgtext
+{
+  z-index: 1;
+  cursor:pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: .5s ease;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+#socialfooter
+{
+text-align: center;
+}
+
+#facebook
+{
+
+display: inline-block;
+font-size: 50px;
+
+
+}
+#twitter
+{
+
+display: inline-block;
+font-size: 50px;
+
+}
+#instagram
+{
+display: inline-block;
+font-size: 50px;
+}
+#twitch
+{
+display: inline-block;
+font-size: 50px;
+}
